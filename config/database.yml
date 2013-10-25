@@ -1,0 +1,15 @@
+mysql: &mysql
+  adapter: mysql
+  socket: <%= (`uname -s` =~ /Linux/ ) ? "" :"/tmp/mysql.sock" %>
+  username: root
+  host: localhost
+  database: rc3_encoding_args
+
+development:
+  <<: *mysql
+
+test:
+  <<: *mysql
+
+production:
+  <<: *mysql
