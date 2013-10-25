@@ -1,4 +1,4 @@
-== ActiveRecord problem with 4.0.1.rc3 + mysql gem?
+#ActiveRecord problem with 4.0.1.rc3 + mysql gem?
 
 I'm aware that the `mysql` gem isn't the favorite vs. `mysql2`, but using it
 with Rails 4.0.0 worked fine, and update to 4.0.1.rc3 broke for me.
