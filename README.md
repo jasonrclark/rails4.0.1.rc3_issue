@@ -3,6 +3,9 @@
 I'm aware that the `mysql` gem isn't the favorite vs. `mysql2`, but using it
 with Rails 4.0.0 worked fine, and update to 4.0.1.rc3 broke for me.
 
+This was entered as https://github.com/rails/rails/issues/12647 and got addressed
+in 4.0.1.rc4. Hurray!
+
 App was created with typical progression:
 
 ```
